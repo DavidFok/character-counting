@@ -7,7 +7,7 @@ var countLetters = function letterCounting(input) {
       if (!result[letter]) {
         result[letter] = 0
       }
-    result[letter] = result[letter] + 1;
+      result[letter] = result[letter] + 1;
     }
   }
   return result;
